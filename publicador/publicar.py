@@ -20,8 +20,14 @@ API = "https://graph.instagram.com/v21.0"
 
 def token():
     t = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    if t.startswith("IG_ACCESS_TOKEN="):
+        t = t.split("=", 1)[1].strip()
+    t = t.strip("'\"").strip()
     if not t:
         sys.exit("Falta la variable de entorno IG_ACCESS_TOKEN.")
+    if not t.startswith("IG"):
+        print("Aviso: el token no empieza por 'IG'. Los de la API con inicio de sesión de Instagram empiezan por IGAA; "
+              "uno que empieza por EAA es de Facebook y no vale para graph.instagram.com.", file=sys.stderr)
     return t
 
 
