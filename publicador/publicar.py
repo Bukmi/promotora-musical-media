@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-"""Publicador de Instagram para @promotora_musical (API de Instagram con inicio de sesión de Instagram).
+"""Publicador de Instagram para @promotora_musical (API de Instagram con inicio de sesión unificado, graph.facebook.com).
 
-Credencial: lo ideal es un Network secret del entorno para graph.instagram.com
-(cabecera Authorization: Bearer IGAA...), así el script nunca toca el token.
+Credencial: lo ideal es un Network secret del entorno para graph.facebook.com
+(cabecera Authorization: Bearer EAA...), así el script nunca toca el token.
 Si existe la variable IG_ACCESS_TOKEN, la usa como respaldo. Nunca lo imprime.
 Por defecto NO publica: crea el contenedor y comprueba que Instagram acepta el archivo.
 Solo publica de verdad con --publicar.
 
 Uso:
   publicar.py perfil
-  publicar.py refrescar-token            (muestra solo la nueva caducidad; el token nuevo hay que guardarlo a mano)
   publicar.py reel  --url URL_MP4 --texto "caption" [--portada URL_JPG] [--publicar]
   publicar.py imagen --url URL_JPG --texto "caption" [--publicar]
   publicar.py carrusel --url URL1 --url URL2 ... --texto "caption" [--publicar]
@@ -17,19 +16,17 @@ Uso:
 """
 import argparse, json, os, sys, time, urllib.parse, urllib.request, urllib.error
 
-API = "https://graph.instagram.com/v21.0"
+API = "https://graph.facebook.com/v24.0"
+IG_ID = os.environ.get("IG_USER_ID", "17841480397302586")  # cuenta de Instagram @promotora_musical
 
 
 def token():
     t = os.environ.get("IG_ACCESS_TOKEN", "").strip()
     if not t:
-        return None  # el token lo añade el proxy (Network secret en graph.instagram.com)
+        return None  # el token lo añade el proxy (Network secret en graph.facebook.com)
     if t.startswith("IG_ACCESS_TOKEN="):
         t = t.split("=", 1)[1].strip()
     t = t.strip("'\"").strip()
-    if not t.startswith("IG"):
-        print("Aviso: el token no empieza por 'IG'. Los de la API con inicio de sesión de Instagram empiezan por IGAA; "
-              "uno que empieza por EAA es de Facebook y no vale para graph.instagram.com.", file=sys.stderr)
     return t
 
 
@@ -52,7 +49,9 @@ def call(method, path, **params):
 
 
 def me():
-    return call("GET", "me", fields="user_id,username,account_type,media_count")
+    r = call("GET", IG_ID, fields="id,username,media_count")
+    r["user_id"] = r.get("id", IG_ID)
+    return r
 
 
 def esperar(cid, max_min=10):
@@ -157,9 +156,7 @@ def main():
         print(json.dumps(me(), ensure_ascii=False, indent=2))
         return
     if a.accion == "refrescar-token":
-        r = call("GET", "https://graph.instagram.com/refresh_access_token", grant_type="ig_refresh_token")
-        print(f"Token renovado. Caduca en {r.get('expires_in', 0) // 86400} días. Guarda el nuevo token en IG_ACCESS_TOKEN.")
-        return
+        sys.exit("Con el inicio de sesión unificado no se usa ig_refresh_token. Renueva el token desde la app de Meta.")
     if a.accion == "hoy":
         return hoy(a)
     if not a.url:
