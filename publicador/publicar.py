@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Publicador de Instagram para @promotora_musical (API de Instagram con inicio de sesión de Instagram).
 
-Lee el token de la variable de entorno IG_ACCESS_TOKEN. Nunca lo imprime.
+Credencial: lo ideal es un Network secret del entorno para graph.instagram.com
+(cabecera Authorization: Bearer IGAA...), así el script nunca toca el token.
+Si existe la variable IG_ACCESS_TOKEN, la usa como respaldo. Nunca lo imprime.
 Por defecto NO publica: crea el contenedor y comprueba que Instagram acepta el archivo.
 Solo publica de verdad con --publicar.
 
@@ -20,11 +22,11 @@ API = "https://graph.instagram.com/v21.0"
 
 def token():
     t = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    if not t:
+        return None  # el token lo añade el proxy (Network secret en graph.instagram.com)
     if t.startswith("IG_ACCESS_TOKEN="):
         t = t.split("=", 1)[1].strip()
     t = t.strip("'\"").strip()
-    if not t:
-        sys.exit("Falta la variable de entorno IG_ACCESS_TOKEN.")
     if not t.startswith("IG"):
         print("Aviso: el token no empieza por 'IG'. Los de la API con inicio de sesión de Instagram empiezan por IGAA; "
               "uno que empieza por EAA es de Facebook y no vale para graph.instagram.com.", file=sys.stderr)
@@ -32,7 +34,9 @@ def token():
 
 
 def call(method, path, **params):
-    params["access_token"] = token()
+    t = token()
+    if t:
+        params["access_token"] = t
     data = urllib.parse.urlencode(params).encode()
     url = f"{API}/{path}" if not path.startswith("http") else path
     if method == "GET":
