@@ -85,13 +85,55 @@ def contenedor(uid, tipo, args):
     return cid
 
 
+BASE = "https://bukmi.github.io/promotora-musical-media/"
+
+
+def hoy(a):
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    fecha = a.fecha or datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+    with urllib.request.urlopen(BASE + "calendario.json", timeout=60) as r:
+        cal = json.load(r)
+    pieza = next((p for p in cal["piezas"] if p["fecha"] == fecha), None)
+    if not pieza:
+        print(f"{fecha}: no hay pieza en el calendario. No se publica nada.")
+        return
+    print(f"{fecha}: día {pieza['dia']}, {pieza['tipo']} ({pieza['pilar']}): {pieza['tema']}")
+    if not pieza.get("archivos"):
+        print("PIEZA NO LISTA: no tiene archivos subidos. No se publica nada.")
+        return
+    urls = [cal.get("base_url", BASE) + f for f in pieza["archivos"]]
+    tipo = {"reel": "reel", "carrusel": "carrusel", "stories": "story", "imagen": "imagen"}[pieza["tipo"]]
+    if tipo == "carrusel" and len(urls) == 1:
+        tipo = "imagen"
+    lotes = [[u] for u in urls] if tipo == "story" else [urls]
+    for lote in lotes:
+        a.url, a.texto = lote, pieza.get("caption", "")
+        a.portada = cal.get("base_url", BASE) + pieza["portada"] if pieza.get("portada") else None
+        publicar_uno(tipo, a)
+
+
+def publicar_uno(tipo, a):
+    perfil = me()
+    uid = perfil["user_id"]
+    print(f"Cuenta: @{perfil.get('username')}")
+    cid = contenedor(uid, tipo, a)
+    if not a.publicar:
+        print(f"Prueba correcta: Instagram aceptó el {tipo} (contenedor {cid}). No se ha publicado nada.")
+        return
+    r = call("POST", f"{uid}/media_publish", creation_id=cid)
+    info = call("GET", r["id"], fields="permalink")
+    print(f"Publicado: {info.get('permalink')}")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story"])
+    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy"])
     ap.add_argument("--url", action="append", default=[])
     ap.add_argument("--texto")
     ap.add_argument("--portada")
     ap.add_argument("--publicar", action="store_true")
+    ap.add_argument("--fecha", help="AAAA-MM-DD; por defecto hoy en Madrid")
     a = ap.parse_args()
 
     if a.accion == "perfil":
@@ -101,18 +143,11 @@ def main():
         r = call("GET", "https://graph.instagram.com/refresh_access_token", grant_type="ig_refresh_token")
         print(f"Token renovado. Caduca en {r.get('expires_in', 0) // 86400} días. Guarda el nuevo token en IG_ACCESS_TOKEN.")
         return
+    if a.accion == "hoy":
+        return hoy(a)
     if not a.url:
         sys.exit("Falta --url.")
-    perfil = me()
-    uid = perfil["user_id"]
-    print(f"Cuenta: @{perfil.get('username')}")
-    cid = contenedor(uid, a.accion, a)
-    if not a.publicar:
-        print(f"Prueba correcta: Instagram aceptó el {a.accion} (contenedor {cid}). No se ha publicado nada.")
-        return
-    r = call("POST", f"{uid}/media_publish", creation_id=cid)
-    info = call("GET", r["id"], fields="permalink")
-    print(f"Publicado: {info.get('permalink')}")
+    publicar_uno(a.accion, a)
 
 
 if __name__ == "__main__":
