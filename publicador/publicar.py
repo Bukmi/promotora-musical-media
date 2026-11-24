@@ -99,6 +99,13 @@ def hoy(a):
         print(f"{fecha}: no hay pieza en el calendario. No se publica nada.")
         return
     print(f"{fecha}: día {pieza['dia']}, {pieza['tipo']} ({pieza['pilar']}): {pieza['tema']}")
+    if pieza.get("variantes"):
+        v = next((v for v in pieza["variantes"] if v.get("nombre") == pieza.get("elegida")), None)
+        if v:
+            pieza = {**pieza, **{k: v[k] for k in ("archivos", "caption", "portada") if k in v}}
+    if not pieza.get("aprobado"):
+        print("NO APROBADA: Ramón no ha dado el OK a esta pieza. No se publica nada.")
+        return
     if not pieza.get("archivos"):
         print("PIEZA NO LISTA: no tiene archivos subidos. No se publica nada.")
         return

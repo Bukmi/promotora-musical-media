@@ -10,7 +10,8 @@
    "pilar": "Producción",
    "tema": "calendario inverso de un concierto.",
    "caption": "Un concierto no se organiza en un mes, se organiza hacia atrás. Pon tu fecha al final y cuenta. Si algún paso ya llega tarde, sabes dónde poner la energía esta semana.\n\nComenta CALENDARIO y te paso la plantilla editable.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 2,
@@ -21,7 +22,8 @@
    "caption": "La pregunta que hay que responder antes de firmar el primer contrato. Costes fijos entre lo que te deja cada entrada. Ejemplo ilustrativo: 6.000 € / 15 € = 400 entradas.\n\nComenta NUMEROS y te mando la calculadora.",
    "archivos": [
     "reels/2026-12-01-punto-equilibrio/reel.mp4"
-   ]
+   ],
+   "aprobado": false
   },
   {
    "dia": 3,
@@ -30,7 +32,8 @@
    "pilar": "Contratación",
    "tema": "8 preguntas antes de cerrar fecha con un artista.",
    "caption": "Casi todos los conflictos con un bolo vienen de algo que nadie preguntó al principio. Ocho preguntas, cinco minutos de llamada, cero sorpresas.\n\nComenta ARTISTA y te paso la lista para usar en tu próxima llamada.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 4,
@@ -39,7 +42,8 @@
    "pilar": "IA",
    "tema": "nota de prensa en 5 minutos con IA.",
    "caption": "La IA no sustituye tu contacto con la prensa local. Te quita la hoja en blanco. Revisa siempre fechas, nombres y precios antes de enviar.\n\nComenta PROMPTS y te mando los tres listos para copiar.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 5,
@@ -48,7 +52,8 @@
    "pilar": "Venta",
    "tema": "las primeras 100 entradas.",
    "caption": "El primer tramo de venta sale de la gente que ya te conoce a ti, al artista o al espacio. Trabaja esas tres comunidades antes de gastar un euro en publicidad.\n\nComenta PREVENTA y te paso el plan de lanzamiento.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 6,
@@ -57,7 +62,8 @@
    "pilar": "Producción",
    "tema": "checklist del día del concierto en formato POV.",
    "caption": "Lo que se olvida no es lo grande, es lo pequeño. Haz tu lista una vez y úsala en todos los conciertos.\n\nComenta DIAD y te mando la checklist imprimible.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 7,
@@ -66,7 +72,8 @@
    "pilar": "Comunidad",
    "tema": "encuesta para alimentar el calendario.",
    "caption": "Responder a la caja de preguntas. Las respuestas deciden temas de las semanas 3 y 4.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 8,
@@ -75,7 +82,8 @@
    "pilar": "Números",
    "tema": "partidas del presupuesto que se olvidan.",
    "caption": "Ninguna de estas partidas es cara por sí sola. Juntas son la diferencia entre cerrar en positivo o en negativo. Revísalas antes de fijar el precio de la entrada.\n\nComenta PRESUPUESTO y te paso la plantilla con las 12 partidas.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 9,
@@ -84,7 +92,8 @@
    "pilar": "Contratación",
    "tema": "modelos de pago al artista.",
    "caption": "Tres formas de pagar un bolo y ninguna es la correcta siempre. Depende de cuánto conoces al público del artista en tu ciudad y de cuánto margen tienes.\n\nComenta CACHE y te mando la tabla comparativa con ejemplos.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 10,
@@ -93,7 +102,8 @@
    "pilar": "Producción",
    "tema": "leer un rider técnico.",
    "caption": "El rider no es una lista de caprichos, es el manual de instrucciones del concierto. Si algo no se puede cumplir, se habla antes y se acuerda una alternativa por escrito.\n\nComenta RIDER y te paso la guía con un rider de ejemplo comentado.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 11,
@@ -102,7 +112,8 @@
    "pilar": "IA",
    "tema": "prueba real de planificación con IA.",
    "caption": "La IA te ahorra horas en lo genérico. Lo local y lo legal siguen necesitando una llamada.\n\nComenta PROMPTS y te paso el prompt que usé.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 12,
@@ -111,7 +122,8 @@
    "pilar": "Venta",
    "tema": "plan de contenido para vender un concierto.",
    "caption": "Vender un concierto no es publicar el cartel y esperar. Es contar una historia en seis capítulos.\n\nComenta PLAN y te mando el calendario de 6 semanas en plantilla.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 13,
@@ -120,7 +132,8 @@
    "pilar": "Producción",
    "tema": "documentos antes de anunciar.",
    "caption": "Lo más caro de un concierto es tener que desanunciarlo. Antes del primer post, papeles. Consulta siempre los requisitos de tu ayuntamiento.\n\nComenta DOCUMENTOS y te paso la checklist legal básica.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 14,
@@ -129,7 +142,8 @@
    "pilar": "Comunidad",
    "tema": "resultados de la encuesta del día 7 y quiz.",
    "caption": "Responder al quiz y escribir por DM la duda de la semana.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 15,
@@ -138,7 +152,8 @@
    "pilar": "IA",
    "tema": "qué delegar en la IA.",
    "caption": "La IA no organiza conciertos. Te devuelve horas para lo que sí requiere criterio: relaciones, decisiones y presencia el día D.\n\nComenta IA y te mando un prompt para cada una de las 7 tareas.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 16,
@@ -147,7 +162,8 @@
    "pilar": "Venta",
    "tema": "anunciar el cartel en 3 fases.",
    "caption": "Un solo anuncio es un pico de atención que se apaga en 48 horas. Tres fases te dan tres picos y más tiempo de venta.\n\nComenta CARTEL y te paso el guion de las 3 fases con plantillas de posts.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 17,
@@ -156,7 +172,8 @@
    "pilar": "Contratación",
    "tema": "dónde encontrar artistas emergentes.",
    "caption": "El artista que hoy cuesta poco y llena 150 personas es el que dentro de dos años tendrás que pelear. Haz scouting cada mes.\n\nComenta TALENTO y te mando la lista de fuentes con enlaces.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 18,
@@ -165,7 +182,8 @@
    "pilar": "Números",
    "tema": "tramos de precio de la entrada.",
    "caption": "Los tramos no son para cobrar más, son para vender antes. Y vender antes te da datos para decidir publicidad, aforo y producción.\n\nComenta PRECIOS y te paso la plantilla de tramos.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 19,
@@ -174,7 +192,8 @@
    "pilar": "Producción",
    "tema": "hoja de ruta del día del concierto.",
    "caption": "Si todo el equipo sabe a qué hora, dónde y a quién llamar, tú dejas de ser la centralita.\n\nComenta HOJA y te mando la plantilla editable.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 20,
@@ -183,7 +202,8 @@
    "pilar": "IA",
    "tema": "cartel del evento con IA.",
    "caption": "La IA es perfecta para fondos y variaciones. La imagen del artista es suya: usa siempre material oficial y pide aprobación antes de publicar.\n\nComenta CARTELIA y te paso los prompts de fondo por género musical.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 21,
@@ -192,7 +212,8 @@
    "pilar": "Comunidad",
    "tema": "caja de preguntas abierta.",
    "caption": "Enviar preguntas. Las más repetidas pasan al calendario de enero.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 22,
@@ -201,7 +222,8 @@
    "pilar": "Venta",
    "tema": "diagnóstico cuando la venta va lenta.",
    "caption": "Una venta lenta casi nunca es un problema del artista ni de la sala. Suele ser un desajuste entre mensaje, precio y momento. Y eso tiene arreglo.\n\nComenta DIAGNOSTICO y te mando la hoja de diagnóstico.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 23,
@@ -210,7 +232,8 @@
    "pilar": "Producción",
    "tema": "plan B.",
    "caption": "Los imprevistos no se pueden evitar, pero sí decidir de antemano qué hacer con ellos. Un folio por escenario y tranquilidad el día D.\n\nComenta PLANB y te paso la plantilla de contingencias.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 24,
@@ -219,7 +242,8 @@
    "pilar": "Contratación",
    "tema": "escribir a una oficina de contratación.",
    "caption": "Las oficinas reciben muchísimas propuestas al día. La que se responde antes es la que trae todos los datos para decidir en una lectura.\n\nComenta EMAIL y te mando la plantilla para copiar.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 25,
@@ -228,7 +252,8 @@
    "pilar": "Comunidad",
    "tema": "Nochebuena ligera.",
    "caption": "Responder en la caja. Se comparten las respuestas el día 28.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 26,
@@ -237,7 +262,8 @@
    "pilar": "Comunidad",
    "tema": "humor del sector.",
    "caption": "Feliz Navidad a quien sigue pensando en el próximo evento hasta en la cena.\n\nEtiqueta a tu compañero o compañera de producción. Sin keyword: el objetivo es alcance y compartidos.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 27,
@@ -246,7 +272,8 @@
    "pilar": "Números",
    "tema": "KPIs después de cada concierto.",
    "caption": "El concierto termina cuando cierras los números, no cuando se apagan las luces. Seis datos, una hoja y mejores decisiones en el siguiente.\n\nComenta KPIS y te paso la hoja de seguimiento.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 28,
@@ -255,7 +282,8 @@
    "pilar": "Comunidad",
    "tema": "balance del año.",
    "caption": "Votar y responder. Los resultados orientan el calendario de enero.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 29,
@@ -264,7 +292,8 @@
    "pilar": "IA",
    "tema": "sistema completo para organizar un concierto.",
    "caption": "Cinco pasos, las mismas herramientas en cada concierto. Organizar mejor no es trabajar más horas, es repetir un sistema.\n\nComenta SISTEMA y te mando la guía completa.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   },
   {
    "dia": 30,
@@ -273,7 +302,9 @@
    "pilar": "Producción",
    "tema": "planificar la temporada 2027.",
    "caption": "El mejor momento para planificar el verano es ahora, cuando todavía nadie ha cerrado fechas. Una página, doce meses, tus objetivos a la vista.\n\nComenta 2027 y te paso la plantilla de temporada.",
-   "archivos": []
+   "archivos": [],
+   "aprobado": false
   }
- ]
+ ],
+ "como_aprobar": "Una pieza solo se publica si aprobado es true. Con variantes, elegida indica el nombre de la variante aprobada."
 }
