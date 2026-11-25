@@ -101,8 +101,12 @@ def hoy(a):
     from datetime import datetime
     from zoneinfo import ZoneInfo
     fecha = a.fecha or datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
-    with urllib.request.urlopen(BASE + "calendario.json", timeout=60) as r:
-        cal = json.load(r)
+    local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "calendario.json")
+    if os.path.exists(local):
+        cal = json.load(open(local))
+    else:
+        with urllib.request.urlopen(BASE + "calendario.json", timeout=60) as r:
+            cal = json.load(r)
     pieza = next((p for p in cal["piezas"] if p["fecha"] == fecha and p.get("franja", "manana") == a.franja), None)
     if not pieza:
         print(f"{fecha} ({a.franja}): no hay pieza en el calendario. No se publica nada.")
@@ -115,6 +119,9 @@ def hoy(a):
     if not pieza.get("aprobado"):
         print("NO APROBADA: Ramón no ha dado el OK a esta pieza. No se publica nada.")
         return
+    if pieza.get("publicado"):
+        print(f"YA PUBLICADA: {pieza['publicado']}. No se publica de nuevo.")
+        return
     if not pieza.get("archivos"):
         print("PIEZA NO LISTA: no tiene archivos subidos. No se publica nada.")
         return
@@ -123,10 +130,29 @@ def hoy(a):
     if tipo == "carrusel" and len(urls) == 1:
         tipo = "imagen"
     lotes = [[u] for u in urls] if tipo == "story" else [urls]
+    enlaces = []
     for lote in lotes:
         a.url, a.texto = lote, pieza.get("caption", "")
         a.portada = cal.get("base_url", BASE) + pieza["portada"] if pieza.get("portada") else None
-        publicar_uno(tipo, a)
+        enlaces.append(publicar_uno(tipo, a))
+    if a.publicar and os.path.exists(local):
+        for p in cal["piezas"]:
+            if p["fecha"] == fecha and p.get("franja", "manana") == a.franja:
+                p["publicado"] = enlaces[0] if len(enlaces) == 1 else enlaces
+        json.dump(cal, open(local, "w"), ensure_ascii=False, indent=1)
+
+
+def auto(a):
+    """Para GitHub Actions: decide la franja por la hora de Madrid (así no depende del horario de verano)."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    h = datetime.now(ZoneInfo("Europe/Madrid")).hour
+    a.franja = "manana" if h in (9, 10) else "tarde" if h in (17, 18) else None
+    if not a.franja:
+        print(f"Hora de Madrid {h}: fuera de las franjas. Nada que hacer.")
+        return
+    a.publicar = True
+    hoy(a)
 
 
 def publicar_uno(tipo, a):
@@ -140,11 +166,12 @@ def publicar_uno(tipo, a):
     r = call("POST", f"{uid}/media_publish", creation_id=cid)
     info = call("GET", r["id"], fields="permalink")
     print(f"Publicado: {info.get('permalink')}")
+    return info.get("permalink")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy"])
+    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy", "auto"])
     ap.add_argument("--url", action="append", default=[])
     ap.add_argument("--texto")
     ap.add_argument("--portada")
@@ -160,6 +187,8 @@ def main():
         sys.exit("Con el inicio de sesión unificado no se usa ig_refresh_token. Renueva el token desde la app de Meta.")
     if a.accion == "hoy":
         return hoy(a)
+    if a.accion == "auto":
+        return auto(a)
     if not a.url:
         sys.exit("Falta --url.")
     publicar_uno(a.accion, a)

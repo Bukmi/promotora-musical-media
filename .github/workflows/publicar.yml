@@ -1,0 +1,32 @@
+name: Publicar en Instagram
+# Sin Claude: GitHub ejecuta el script a sus horas. Publica solo piezas con "aprobado": true.
+on:
+  schedule:
+    - cron: "45 7,8 * * *"    # franja de mañana (~10:00 Madrid, invierno y verano)
+    - cron: "45 15,16 * * *"  # franja de tarde (~18:00 Madrid)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publicar la pieza de la franja
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 publicador/publicar.py auto
+      - name: Guardar el enlace publicado
+        run: |
+          if ! git diff --quiet calendario.json; then
+            git config user.name "publicador-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "Marca pieza publicada"
+            git push
+          fi
