@@ -103,9 +103,9 @@ def hoy(a):
     fecha = a.fecha or datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
     with urllib.request.urlopen(BASE + "calendario.json", timeout=60) as r:
         cal = json.load(r)
-    pieza = next((p for p in cal["piezas"] if p["fecha"] == fecha), None)
+    pieza = next((p for p in cal["piezas"] if p["fecha"] == fecha and p.get("franja", "manana") == a.franja), None)
     if not pieza:
-        print(f"{fecha}: no hay pieza en el calendario. No se publica nada.")
+        print(f"{fecha} ({a.franja}): no hay pieza en el calendario. No se publica nada.")
         return
     print(f"{fecha}: día {pieza['dia']}, {pieza['tipo']} ({pieza['pilar']}): {pieza['tema']}")
     if pieza.get("variantes"):
@@ -150,6 +150,7 @@ def main():
     ap.add_argument("--portada")
     ap.add_argument("--publicar", action="store_true")
     ap.add_argument("--fecha", help="AAAA-MM-DD; por defecto hoy en Madrid")
+    ap.add_argument("--franja", choices=["manana", "tarde"], default="manana", help="hueco del día: manana (~10:00) o tarde (~18:00)")
     a = ap.parse_args()
 
     if a.accion == "perfil":
