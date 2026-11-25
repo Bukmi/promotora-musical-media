@@ -5,6 +5,10 @@ on:
     - cron: "45 7,8 * * *"    # franja de mañana (~10:00 Madrid, invierno y verano)
     - cron: "45 15,16 * * *"  # franja de tarde (~18:00 Madrid)
   workflow_dispatch:
+    inputs:
+      accion:
+        description: "auto (publica si toca) o perfil (solo comprueba el token)"
+        default: auto
 permissions:
   contents: write
 concurrency:
@@ -21,7 +25,7 @@ jobs:
       - name: Publicar la pieza de la franja
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python3 publicador/publicar.py auto
+        run: python3 publicador/publicar.py ${{ github.event.inputs.accion || 'auto' }}
       - name: Guardar el enlace publicado
         run: |
           if ! git diff --quiet calendario.json; then
