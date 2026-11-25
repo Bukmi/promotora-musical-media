@@ -19,12 +19,28 @@
    "franja": "manana"
   },
   {
-   "dia": -3,
-   "fecha": "2026-11-26",
+   "dia": 2,
+   "fecha": "2026-11-25",
    "tipo": "reel",
    "pilar": "Producción",
    "tema": "qué es un rider y cómo leerlo.",
    "caption": "El rider es la lista de lo que el artista necesita para tocar: la parte técnica y la de hospitalidad. Revísalo con la sala o tu técnico antes de firmar: lo que no se pueda, se negocia ahora.\n\nEnvíaselo a quien acaba de recibir su primer rider.",
+   "archivos": [
+    "reels/2026-11-25-tarde/reel.mp4"
+   ],
+   "aprobado": false,
+   "franja": "tarde",
+   "nota": "Pieza extra pedida por Ramón para hoy a las 18:00 (25/11).",
+   "portada": "reels/2026-11-25-tarde/portada.jpg",
+   "producido": "2026-11-25"
+  },
+  {
+   "dia": -3,
+   "fecha": "2026-11-26",
+   "tipo": "reel",
+   "pilar": "Backstage",
+   "tema": "(pendiente) pieza divulgativa en sustitución del reel de presentación",
+   "caption": "",
    "archivos": [],
    "aprobado": false,
    "franja": "manana",
