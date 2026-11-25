@@ -142,6 +142,27 @@ def hoy(a):
         json.dump(cal, open(local, "w"), ensure_ascii=False, indent=1)
 
 
+def aplicar_oks(a):
+    """Vuelca en calendario.json los OK de la mesa de aprobación (un JSON por pieza: fecha_franja.json)."""
+    import glob
+    local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "calendario.json")
+    cal = json.load(open(local))
+    oks = {}
+    for f in glob.glob(os.path.join(a.dir, "**", "*.json"), recursive=True):
+        d = json.load(open(f))
+        d = d.get("data", d) if isinstance(d, dict) else {}
+        oks[os.path.splitext(os.path.basename(f))[0]] = bool(d.get("aprobado"))
+    cambios = 0
+    for p in cal["piezas"]:
+        k = f"{p['fecha']}_{p.get('franja', 'manana')}"
+        if k in oks and not p.get("publicado") and bool(p.get("aprobado")) != oks[k]:
+            p["aprobado"] = oks[k]
+            cambios += 1
+            print(f"{k}: {'OK' if oks[k] else 'sin OK'}")
+    json.dump(cal, open(local, "w"), ensure_ascii=False, indent=1)
+    print(f"{cambios} cambios")
+
+
 def auto(a):
     """Para GitHub Actions: decide la franja por la hora de Madrid (así no depende del horario de verano)."""
     from datetime import datetime
@@ -171,11 +192,12 @@ def publicar_uno(tipo, a):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy", "auto"])
+    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy", "auto", "aplicar-oks"])
     ap.add_argument("--url", action="append", default=[])
     ap.add_argument("--texto")
     ap.add_argument("--portada")
     ap.add_argument("--publicar", action="store_true")
+    ap.add_argument("--dir", help="carpeta con los OK exportados de la mesa de aprobación")
     ap.add_argument("--fecha", help="AAAA-MM-DD; por defecto hoy en Madrid")
     ap.add_argument("--franja", choices=["manana", "tarde"], default="manana", help="hueco del día: manana (~10:00) o tarde (~18:00)")
     a = ap.parse_args()
@@ -189,6 +211,8 @@ def main():
         return hoy(a)
     if a.accion == "auto":
         return auto(a)
+    if a.accion == "aplicar-oks":
+        return aplicar_oks(a)
     if not a.url:
         sys.exit("Falta --url.")
     publicar_uno(a.accion, a)
