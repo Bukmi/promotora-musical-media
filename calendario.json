@@ -15,7 +15,7 @@
   },
   {
    "dia": 2,
-   "fecha": "2026-12-01",
+   "fecha": "2026-11-25",
    "tipo": "reel",
    "pilar": "Números",
    "tema": "punto de equilibrio.",
@@ -23,7 +23,8 @@
    "archivos": [
     "reels/2026-12-01-punto-equilibrio/reel.mp4"
    ],
-   "aprobado": false
+   "aprobado": true,
+   "nota": "Adelantado a hoy 25/11 a las 13:00 por petición de Ramón (25/11), que da el OK."
   },
   {
    "dia": 3,
