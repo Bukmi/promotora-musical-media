@@ -22,16 +22,13 @@
    "dia": -3,
    "fecha": "2026-11-26",
    "tipo": "reel",
-   "pilar": "Comunidad",
-   "tema": "qué vas a encontrar en esta cuenta.",
-   "caption": "Divulgación sobre cómo se organizan conciertos y eventos de verdad: backstage, números y herramientas. Dos piezas al día, a las 10:00 y a las 18:00.\n\nSíguenos y envíaselo a quien organiza eventos contigo.",
-   "archivos": [
-    "reels/2026-11-26-manana/reel.mp4"
-   ],
+   "pilar": "Producción",
+   "tema": "qué es un rider y cómo leerlo.",
+   "caption": "El rider es la lista de lo que el artista necesita para tocar: la parte técnica y la de hospitalidad. Revísalo con la sala o tu técnico antes de firmar: lo que no se pueda, se negocia ahora.\n\nEnvíaselo a quien acaba de recibir su primer rider.",
+   "archivos": [],
    "aprobado": false,
    "franja": "manana",
-   "portada": "reels/2026-11-26-manana/portada.jpg",
-   "producido": "2026-11-25"
+   "nota": "Sustituye al reel de presentación de la cuenta: Ramón no quiere piezas que presenten la cuenta (25/11)."
   },
   {
    "dia": -3,
@@ -39,7 +36,7 @@
    "tipo": "reel",
    "pilar": "Backstage",
    "tema": "qué hace una promotora.",
-   "caption": "Una promotora es la persona que hace que un concierto exista: decide, invierte, coordina y responde. Esta cuenta va de ese trabajo.\n\nEnvíaselo a quien te pregunta a qué te dedicas.",
+   "caption": "Una promotora es la persona que hace que un concierto exista: decide, invierte, coordina y responde.\n\nEnvíaselo a quien te pregunta a qué te dedicas.",
    "archivos": [
     "reels/2026-11-26-tarde/reel.mp4"
    ],
@@ -125,8 +122,7 @@
     "stories/2026-11-29-manana/01.jpg",
     "stories/2026-11-29-manana/02.jpg",
     "stories/2026-11-29-manana/03.jpg",
-    "stories/2026-11-29-manana/04.jpg",
-    "stories/2026-11-29-manana/05.jpg"
+    "stories/2026-11-29-manana/04.jpg"
    ],
    "aprobado": false,
    "franja": "manana",
