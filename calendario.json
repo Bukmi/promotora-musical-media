@@ -25,9 +25,13 @@
    "pilar": "Comunidad",
    "tema": "qué vas a encontrar en esta cuenta.",
    "caption": "Divulgación sobre cómo se organizan conciertos y eventos de verdad: backstage, números y herramientas. Dos piezas al día, a las 10:00 y a las 18:00.\n\nSíguenos y envíaselo a quien organiza eventos contigo.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-26-manana/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "portada": "reels/2026-11-26-manana/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": -3,
@@ -47,9 +51,19 @@
    "pilar": "Números",
    "tema": "las 4 cifras antes de programar un concierto.",
    "caption": "Antes de firmar nada, cuatro cifras. Si el punto de equilibrio está por encima de lo que puedes vender, toca cambiar algo: precio, costes o sala.\n\nComenta NUMEROS y te mando la calculadora.",
-   "archivos": [],
+   "archivos": [
+    "carruseles/2026-11-27-manana/01.jpg",
+    "carruseles/2026-11-27-manana/02.jpg",
+    "carruseles/2026-11-27-manana/03.jpg",
+    "carruseles/2026-11-27-manana/04.jpg",
+    "carruseles/2026-11-27-manana/05.jpg",
+    "carruseles/2026-11-27-manana/06.jpg",
+    "carruseles/2026-11-27-manana/07.jpg",
+    "carruseles/2026-11-27-manana/08.jpg"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "producido": "2026-11-25"
   },
   {
    "dia": -2,
