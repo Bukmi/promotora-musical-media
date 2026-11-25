@@ -40,9 +40,13 @@
    "pilar": "Backstage",
    "tema": "qué hace una promotora.",
    "caption": "Una promotora es la persona que hace que un concierto exista: decide, invierte, coordina y responde. Esta cuenta va de ese trabajo.\n\nEnvíaselo a quien te pregunta a qué te dedicas.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-26-tarde/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "portada": "reels/2026-11-26-tarde/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": -2,
@@ -72,9 +76,13 @@
    "pilar": "Backstage",
    "tema": "quién es quién en un concierto.",
    "caption": "Un concierto es un trabajo de equipo. Saber quién hace qué te ahorra llamadas a la persona equivocada.\n\nEnvíaselo a tu equipo.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-27-tarde/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "portada": "reels/2026-11-27-tarde/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": -1,
@@ -83,9 +91,13 @@
    "pilar": "Venta",
    "tema": "la compra de última hora.",
    "caption": "La última semana es clave para vender, pero no sustituye a una buena preventa. Ten preparado el contenido de esos últimos días.\n\nComenta PLAN y te mando el calendario de 6 semanas para vender un concierto.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-28-manana/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "portada": "reels/2026-11-28-manana/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": -1,
@@ -94,9 +106,13 @@
    "pilar": "Otros eventos",
    "tema": "tu primer evento pequeño en 5 pasos.",
    "caption": "Todos los eventos grandes empezaron siendo pequeños. Estos cinco pasos sirven para el primero.\n\nEnvíaselo a quien quiere organizar su primer evento.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-28-tarde/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "portada": "reels/2026-11-28-tarde/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": 0,
@@ -105,9 +121,17 @@
    "pilar": "Comunidad",
    "tema": "¿quién eres?.",
    "caption": "Responde a las encuestas: decides qué contenido viene después.\n\nResponder a las encuestas y a la caja de preguntas.",
-   "archivos": [],
+   "archivos": [
+    "stories/2026-11-29-manana/01.jpg",
+    "stories/2026-11-29-manana/02.jpg",
+    "stories/2026-11-29-manana/03.jpg",
+    "stories/2026-11-29-manana/04.jpg",
+    "stories/2026-11-29-manana/05.jpg"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "producido": "2026-11-25",
+   "nota_produccion": "Sin stickers: la API no permite encuestas; las respuestas se piden por mensaje. Si se publican desde la app, se pueden añadir encuesta y caja de preguntas a mano."
   },
   {
    "dia": 0,
@@ -116,9 +140,13 @@
    "pilar": "Backstage",
    "tema": "los gastos de gestión de una entrada.",
    "caption": "Los gastos de gestión no son un misterio: son el coste de vender la entrada. Decide quién los paga y muéstralo claro.\n\nEnvíaselo a quien se ha quejado de los gastos de gestión.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-29-tarde/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "portada": "reels/2026-11-29-tarde/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": 1,
@@ -127,9 +155,19 @@
    "pilar": "Producción",
    "tema": "calendario inverso de un concierto.",
    "caption": "Un concierto no se organiza en un mes, se organiza hacia atrás. Pon tu fecha al final y cuenta. Si algún paso ya llega tarde, sabes dónde poner la energía esta semana.\n\nComenta CALENDARIO y te paso la plantilla editable.",
-   "archivos": [],
+   "archivos": [
+    "carruseles/2026-11-30-manana/01.jpg",
+    "carruseles/2026-11-30-manana/02.jpg",
+    "carruseles/2026-11-30-manana/03.jpg",
+    "carruseles/2026-11-30-manana/04.jpg",
+    "carruseles/2026-11-30-manana/05.jpg",
+    "carruseles/2026-11-30-manana/06.jpg",
+    "carruseles/2026-11-30-manana/07.jpg",
+    "carruseles/2026-11-30-manana/08.jpg"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "producido": "2026-11-25"
   },
   {
    "dia": 1,
@@ -138,9 +176,13 @@
    "pilar": "Backstage",
    "tema": "por qué los conciertos no empiezan a la hora del cartel.",
    "caption": "La hora del cartel y la hora del concierto casi nunca son la misma. Puertas, telonero, cambio de escenario. Ponlo claro en la entrada y te ahorras quejas.\n\nEnvíaselo a quien siempre llega tarde a los conciertos.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-11-30-tarde/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "portada": "reels/2026-11-30-tarde/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": 2,
@@ -149,9 +191,13 @@
    "pilar": "Backstage",
    "tema": "por qué una sala agotada no está llena.",
    "caption": "Agotar entradas no significa que entren todas las personas. Cuenta con el no-show en tus previsiones.\n\nEnvíaselo a quien organiza contigo.",
-   "archivos": [],
+   "archivos": [
+    "reels/2026-12-01-manana/reel.mp4"
+   ],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "manana",
+   "portada": "reels/2026-12-01-manana/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": 2,
@@ -160,9 +206,20 @@
    "pilar": "Números",
    "tema": "qué hay dentro del precio de una entrada.",
    "caption": "Una entrada no es dinero para una sola persona. Es el reparto entre todo lo que hace falta para que el concierto exista. Cifras de ejemplo: cada evento tiene su propio reparto.\n\nComenta PRESUPUESTO y te paso la plantilla para hacer el tuyo.",
-   "archivos": [],
+   "archivos": [
+    "carruseles/2026-12-01-tarde/01.jpg",
+    "carruseles/2026-12-01-tarde/02.jpg",
+    "carruseles/2026-12-01-tarde/03.jpg",
+    "carruseles/2026-12-01-tarde/04.jpg",
+    "carruseles/2026-12-01-tarde/05.jpg",
+    "carruseles/2026-12-01-tarde/06.jpg",
+    "carruseles/2026-12-01-tarde/07.jpg",
+    "carruseles/2026-12-01-tarde/08.jpg",
+    "carruseles/2026-12-01-tarde/09.jpg"
+   ],
    "aprobado": false,
-   "franja": "tarde"
+   "franja": "tarde",
+   "producido": "2026-11-25"
   },
   {
    "dia": 3,
