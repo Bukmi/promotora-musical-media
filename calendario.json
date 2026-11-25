@@ -38,13 +38,17 @@
    "dia": -3,
    "fecha": "2026-11-26",
    "tipo": "reel",
-   "pilar": "Backstage",
-   "tema": "(pendiente) pieza divulgativa en sustitución del reel de presentación",
-   "caption": "",
-   "archivos": [],
+   "pilar": "Números",
+   "tema": "cómo se paga una sala: alquiler, porcentaje o mixto.",
+   "caption": "Tres tratos habituales con una sala: alquiler (pagas un fijo y la taquilla es tuya), porcentaje (la sala se queda una parte de cada entrada) o mixto. El alquiler deja más margen si vendes mucho; el porcentaje reparte el riesgo.\n\nEnvíaselo a quien está cerrando sala para su próximo concierto.",
+   "archivos": [
+    "reels/2026-11-26-manana/reel.mp4"
+   ],
    "aprobado": false,
    "franja": "manana",
-   "nota": "Sustituye al reel de presentación de la cuenta: Ramón no quiere piezas que presenten la cuenta (25/11)."
+   "nota": "Sustituye al reel de presentación de la cuenta: Ramón no quiere piezas que presenten la cuenta (25/11).",
+   "portada": "reels/2026-11-26-manana/portada.jpg",
+   "producido": "2026-11-25"
   },
   {
    "dia": -3,
