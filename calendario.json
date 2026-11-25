@@ -4,17 +4,6 @@
  "base_url": "https://bukmi.github.io/promotora-musical-media/",
  "piezas": [
   {
-   "dia": 1,
-   "fecha": "2026-11-30",
-   "tipo": "carrusel",
-   "pilar": "Producción",
-   "tema": "calendario inverso de un concierto.",
-   "caption": "Un concierto no se organiza en un mes, se organiza hacia atrás. Pon tu fecha al final y cuenta. Si algún paso ya llega tarde, sabes dónde poner la energía esta semana.\n\nComenta CALENDARIO y te paso la plantilla editable.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
    "dia": 2,
    "fecha": "2026-11-25",
    "tipo": "reel",
@@ -30,309 +19,100 @@
    "franja": "manana"
   },
   {
-   "dia": 3,
-   "fecha": "2026-12-02",
-   "tipo": "carrusel",
-   "pilar": "Contratación",
-   "tema": "8 preguntas antes de cerrar fecha con un artista.",
-   "caption": "Casi todos los conflictos con un bolo vienen de algo que nadie preguntó al principio. Ocho preguntas, cinco minutos de llamada, cero sorpresas.\n\nComenta ARTISTA y te paso la lista para usar en tu próxima llamada.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 4,
-   "fecha": "2026-12-03",
+   "dia": -3,
+   "fecha": "2026-11-26",
    "tipo": "reel",
-   "pilar": "IA",
-   "tema": "nota de prensa en 5 minutos con IA.",
-   "caption": "La IA no sustituye tu contacto con la prensa local. Te quita la hoja en blanco. Revisa siempre fechas, nombres y precios antes de enviar.\n\nComenta PROMPTS y te mando los tres listos para copiar.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 5,
-   "fecha": "2026-12-04",
-   "tipo": "carrusel",
-   "pilar": "Venta",
-   "tema": "las primeras 100 entradas.",
-   "caption": "El primer tramo de venta sale de la gente que ya te conoce a ti, al artista o al espacio. Trabaja esas tres comunidades antes de gastar un euro en publicidad.\n\nComenta PREVENTA y te paso el plan de lanzamiento.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 6,
-   "fecha": "2026-12-05",
-   "tipo": "reel",
-   "pilar": "Producción",
-   "tema": "checklist del día del concierto en formato POV.",
-   "caption": "Lo que se olvida no es lo grande, es lo pequeño. Haz tu lista una vez y úsala en todos los conciertos.\n\nComenta DIAD y te mando la checklist imprimible.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 7,
-   "fecha": "2026-12-06",
-   "tipo": "stories",
    "pilar": "Comunidad",
-   "tema": "encuesta para alimentar el calendario.",
-   "caption": "Responder a la caja de preguntas. Las respuestas deciden temas de las semanas 3 y 4.",
+   "tema": "qué vas a encontrar en esta cuenta.",
+   "caption": "Divulgación sobre cómo se organizan conciertos y eventos de verdad: backstage, números y herramientas. Dos piezas al día, a las 10:00 y a las 18:00.\n\nSíguenos y envíaselo a quien organiza eventos contigo.",
    "archivos": [],
    "aprobado": false,
    "franja": "manana"
   },
   {
-   "dia": 8,
-   "fecha": "2026-12-07",
+   "dia": -3,
+   "fecha": "2026-11-26",
+   "tipo": "reel",
+   "pilar": "Backstage",
+   "tema": "qué hace una promotora.",
+   "caption": "Una promotora es la persona que hace que un concierto exista: decide, invierte, coordina y responde. Esta cuenta va de ese trabajo.\n\nEnvíaselo a quien te pregunta a qué te dedicas.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "tarde"
+  },
+  {
+   "dia": -2,
+   "fecha": "2026-11-27",
    "tipo": "carrusel",
    "pilar": "Números",
-   "tema": "partidas del presupuesto que se olvidan.",
-   "caption": "Ninguna de estas partidas es cara por sí sola. Juntas son la diferencia entre cerrar en positivo o en negativo. Revísalas antes de fijar el precio de la entrada.\n\nComenta PRESUPUESTO y te paso la plantilla con las 12 partidas.",
+   "tema": "las 4 cifras antes de programar un concierto.",
+   "caption": "Antes de firmar nada, cuatro cifras. Si el punto de equilibrio está por encima de lo que puedes vender, toca cambiar algo: precio, costes o sala.\n\nComenta NUMEROS y te mando la calculadora.",
    "archivos": [],
    "aprobado": false,
    "franja": "manana"
   },
   {
-   "dia": 9,
-   "fecha": "2026-12-08",
+   "dia": -2,
+   "fecha": "2026-11-27",
    "tipo": "reel",
-   "pilar": "Contratación",
-   "tema": "modelos de pago al artista.",
-   "caption": "Tres formas de pagar un bolo y ninguna es la correcta siempre. Depende de cuánto conoces al público del artista en tu ciudad y de cuánto margen tienes.\n\nComenta CACHE y te mando la tabla comparativa con ejemplos.",
+   "pilar": "Backstage",
+   "tema": "quién es quién en un concierto.",
+   "caption": "Un concierto es un trabajo de equipo. Saber quién hace qué te ahorra llamadas a la persona equivocada.\n\nEnvíaselo a tu equipo.",
    "archivos": [],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "tarde"
   },
   {
-   "dia": 10,
-   "fecha": "2026-12-09",
-   "tipo": "carrusel",
-   "pilar": "Producción",
-   "tema": "leer un rider técnico.",
-   "caption": "El rider no es una lista de caprichos, es el manual de instrucciones del concierto. Si algo no se puede cumplir, se habla antes y se acuerda una alternativa por escrito.\n\nComenta RIDER y te paso la guía con un rider de ejemplo comentado.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 11,
-   "fecha": "2026-12-10",
-   "tipo": "reel",
-   "pilar": "IA",
-   "tema": "prueba real de planificación con IA.",
-   "caption": "La IA te ahorra horas en lo genérico. Lo local y lo legal siguen necesitando una llamada.\n\nComenta PROMPTS y te paso el prompt que usé.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 12,
-   "fecha": "2026-12-11",
-   "tipo": "carrusel",
-   "pilar": "Venta",
-   "tema": "plan de contenido para vender un concierto.",
-   "caption": "Vender un concierto no es publicar el cartel y esperar. Es contar una historia en seis capítulos.\n\nComenta PLAN y te mando el calendario de 6 semanas en plantilla.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 13,
-   "fecha": "2026-12-12",
-   "tipo": "reel",
-   "pilar": "Producción",
-   "tema": "documentos antes de anunciar.",
-   "caption": "Lo más caro de un concierto es tener que desanunciarlo. Antes del primer post, papeles. Consulta siempre los requisitos de tu ayuntamiento.\n\nComenta DOCUMENTOS y te paso la checklist legal básica.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 14,
-   "fecha": "2026-12-13",
-   "tipo": "stories",
-   "pilar": "Comunidad",
-   "tema": "resultados de la encuesta del día 7 y quiz.",
-   "caption": "Responder al quiz y escribir por DM la duda de la semana.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 15,
-   "fecha": "2026-12-14",
-   "tipo": "carrusel",
-   "pilar": "IA",
-   "tema": "qué delegar en la IA.",
-   "caption": "La IA no organiza conciertos. Te devuelve horas para lo que sí requiere criterio: relaciones, decisiones y presencia el día D.\n\nComenta IA y te mando un prompt para cada una de las 7 tareas.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 16,
-   "fecha": "2026-12-15",
+   "dia": -1,
+   "fecha": "2026-11-28",
    "tipo": "reel",
    "pilar": "Venta",
-   "tema": "anunciar el cartel en 3 fases.",
-   "caption": "Un solo anuncio es un pico de atención que se apaga en 48 horas. Tres fases te dan tres picos y más tiempo de venta.\n\nComenta CARTEL y te paso el guion de las 3 fases con plantillas de posts.",
+   "tema": "la compra de última hora.",
+   "caption": "La última semana es clave para vender, pero no sustituye a una buena preventa. Ten preparado el contenido de esos últimos días.\n\nComenta PLAN y te mando el calendario de 6 semanas para vender un concierto.",
    "archivos": [],
    "aprobado": false,
    "franja": "manana"
   },
   {
-   "dia": 17,
-   "fecha": "2026-12-16",
-   "tipo": "carrusel",
-   "pilar": "Contratación",
-   "tema": "dónde encontrar artistas emergentes.",
-   "caption": "El artista que hoy cuesta poco y llena 150 personas es el que dentro de dos años tendrás que pelear. Haz scouting cada mes.\n\nComenta TALENTO y te mando la lista de fuentes con enlaces.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 18,
-   "fecha": "2026-12-17",
+   "dia": -1,
+   "fecha": "2026-11-28",
    "tipo": "reel",
-   "pilar": "Números",
-   "tema": "tramos de precio de la entrada.",
-   "caption": "Los tramos no son para cobrar más, son para vender antes. Y vender antes te da datos para decidir publicidad, aforo y producción.\n\nComenta PRECIOS y te paso la plantilla de tramos.",
+   "pilar": "Otros eventos",
+   "tema": "tu primer evento pequeño en 5 pasos.",
+   "caption": "Todos los eventos grandes empezaron siendo pequeños. Estos cinco pasos sirven para el primero.\n\nEnvíaselo a quien quiere organizar su primer evento.",
    "archivos": [],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "tarde"
   },
   {
-   "dia": 19,
-   "fecha": "2026-12-18",
-   "tipo": "carrusel",
-   "pilar": "Producción",
-   "tema": "hoja de ruta del día del concierto.",
-   "caption": "Si todo el equipo sabe a qué hora, dónde y a quién llamar, tú dejas de ser la centralita.\n\nComenta HOJA y te mando la plantilla editable.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 20,
-   "fecha": "2026-12-19",
-   "tipo": "reel",
-   "pilar": "IA",
-   "tema": "cartel del evento con IA.",
-   "caption": "La IA es perfecta para fondos y variaciones. La imagen del artista es suya: usa siempre material oficial y pide aprobación antes de publicar.\n\nComenta CARTELIA y te paso los prompts de fondo por género musical.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 21,
-   "fecha": "2026-12-20",
+   "dia": 0,
+   "fecha": "2026-11-29",
    "tipo": "stories",
    "pilar": "Comunidad",
-   "tema": "caja de preguntas abierta.",
-   "caption": "Enviar preguntas. Las más repetidas pasan al calendario de enero.",
+   "tema": "¿quién eres?.",
+   "caption": "Responde a las encuestas: decides qué contenido viene después.\n\nResponder a las encuestas y a la caja de preguntas.",
    "archivos": [],
    "aprobado": false,
    "franja": "manana"
   },
   {
-   "dia": 22,
-   "fecha": "2026-12-21",
-   "tipo": "carrusel",
-   "pilar": "Venta",
-   "tema": "diagnóstico cuando la venta va lenta.",
-   "caption": "Una venta lenta casi nunca es un problema del artista ni de la sala. Suele ser un desajuste entre mensaje, precio y momento. Y eso tiene arreglo.\n\nComenta DIAGNOSTICO y te mando la hoja de diagnóstico.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 23,
-   "fecha": "2026-12-22",
+   "dia": 0,
+   "fecha": "2026-11-29",
    "tipo": "reel",
-   "pilar": "Producción",
-   "tema": "plan B.",
-   "caption": "Los imprevistos no se pueden evitar, pero sí decidir de antemano qué hacer con ellos. Un folio por escenario y tranquilidad el día D.\n\nComenta PLANB y te paso la plantilla de contingencias.",
+   "pilar": "Backstage",
+   "tema": "los gastos de gestión de una entrada.",
+   "caption": "Los gastos de gestión no son un misterio: son el coste de vender la entrada. Decide quién los paga y muéstralo claro.\n\nEnvíaselo a quien se ha quejado de los gastos de gestión.",
    "archivos": [],
    "aprobado": false,
-   "franja": "manana"
+   "franja": "tarde"
   },
   {
-   "dia": 24,
-   "fecha": "2026-12-23",
-   "tipo": "carrusel",
-   "pilar": "Contratación",
-   "tema": "escribir a una oficina de contratación.",
-   "caption": "Las oficinas reciben muchísimas propuestas al día. La que se responde antes es la que trae todos los datos para decidir en una lectura.\n\nComenta EMAIL y te mando la plantilla para copiar.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 25,
-   "fecha": "2026-12-24",
-   "tipo": "stories",
-   "pilar": "Comunidad",
-   "tema": "Nochebuena ligera.",
-   "caption": "Responder en la caja. Se comparten las respuestas el día 28.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 26,
-   "fecha": "2026-12-25",
-   "tipo": "reel",
-   "pilar": "Comunidad",
-   "tema": "humor del sector.",
-   "caption": "Feliz Navidad a quien sigue pensando en el próximo evento hasta en la cena.\n\nEtiqueta a tu compañero o compañera de producción. Sin keyword: el objetivo es alcance y compartidos.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 27,
-   "fecha": "2026-12-26",
-   "tipo": "carrusel",
-   "pilar": "Números",
-   "tema": "KPIs después de cada concierto.",
-   "caption": "El concierto termina cuando cierras los números, no cuando se apagan las luces. Seis datos, una hoja y mejores decisiones en el siguiente.\n\nComenta KPIS y te paso la hoja de seguimiento.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 28,
-   "fecha": "2026-12-27",
-   "tipo": "stories",
-   "pilar": "Comunidad",
-   "tema": "balance del año.",
-   "caption": "Votar y responder. Los resultados orientan el calendario de enero.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 29,
-   "fecha": "2026-12-28",
-   "tipo": "reel",
-   "pilar": "IA",
-   "tema": "sistema completo para organizar un concierto.",
-   "caption": "Cinco pasos, las mismas herramientas en cada concierto. Organizar mejor no es trabajar más horas, es repetir un sistema.\n\nComenta SISTEMA y te mando la guía completa.",
-   "archivos": [],
-   "aprobado": false,
-   "franja": "manana"
-  },
-  {
-   "dia": 30,
-   "fecha": "2026-12-29",
+   "dia": 1,
+   "fecha": "2026-11-30",
    "tipo": "carrusel",
    "pilar": "Producción",
-   "tema": "planificar la temporada 2027.",
-   "caption": "El mejor momento para planificar el verano es ahora, cuando todavía nadie ha cerrado fechas. Una página, doce meses, tus objetivos a la vista.\n\nComenta 2027 y te paso la plantilla de temporada.",
+   "tema": "calendario inverso de un concierto.",
+   "caption": "Un concierto no se organiza en un mes, se organiza hacia atrás. Pon tu fecha al final y cuenta. Si algún paso ya llega tarde, sabes dónde poner la energía esta semana.\n\nComenta CALENDARIO y te paso la plantilla editable.",
    "archivos": [],
    "aprobado": false,
    "franja": "manana"
@@ -351,6 +131,17 @@
   {
    "dia": 2,
    "fecha": "2026-12-01",
+   "tipo": "reel",
+   "pilar": "Backstage",
+   "tema": "por qué una sala agotada no está llena.",
+   "caption": "Agotar entradas no significa que entren todas las personas. Cuenta con el no-show en tus previsiones.\n\nEnvíaselo a quien organiza contigo.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 2,
+   "fecha": "2026-12-01",
    "tipo": "carrusel",
    "pilar": "Números",
    "tema": "qué hay dentro del precio de una entrada.",
@@ -358,6 +149,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 3,
+   "fecha": "2026-12-02",
+   "tipo": "carrusel",
+   "pilar": "Contratación",
+   "tema": "8 preguntas antes de cerrar fecha con un artista.",
+   "caption": "Casi todos los conflictos con un bolo vienen de algo que nadie preguntó al principio. Ocho preguntas, cinco minutos de llamada, cero sorpresas.\n\nComenta ARTISTA y te paso la lista para usar en tu próxima llamada.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 3,
@@ -374,12 +176,34 @@
    "dia": 4,
    "fecha": "2026-12-03",
    "tipo": "reel",
+   "pilar": "IA",
+   "tema": "nota de prensa en 5 minutos con IA.",
+   "caption": "La IA no sustituye tu contacto con la prensa local. Te quita la hoja en blanco. Revisa siempre fechas, nombres y precios antes de enviar.\n\nComenta PROMPTS y te mando los tres listos para copiar.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 4,
+   "fecha": "2026-12-03",
+   "tipo": "reel",
    "pilar": "Herramientas",
    "tema": "5 herramientas gratis para una promotora pequeña.",
    "caption": "Con cinco herramientas gratuitas bien usadas puedes organizar un ciclo entero. Lo importante no es la herramienta, es usar siempre la misma.\n\nGuárdalo y envíaselo a quien organiza contigo.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 5,
+   "fecha": "2026-12-04",
+   "tipo": "carrusel",
+   "pilar": "Venta",
+   "tema": "las primeras 100 entradas.",
+   "caption": "El primer tramo de venta sale de la gente que ya te conoce a ti, al artista o al espacio. Trabaja esas tres comunidades antes de gastar un euro en publicidad.\n\nComenta PREVENTA y te paso el plan de lanzamiento.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 5,
@@ -396,12 +220,34 @@
    "dia": 6,
    "fecha": "2026-12-05",
    "tipo": "reel",
+   "pilar": "Producción",
+   "tema": "checklist del día del concierto en formato POV.",
+   "caption": "Lo que se olvida no es lo grande, es lo pequeño. Haz tu lista una vez y úsala en todos los conciertos.\n\nComenta DIAD y te mando la checklist imprimible.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 6,
+   "fecha": "2026-12-05",
+   "tipo": "reel",
    "pilar": "Otros eventos",
    "tema": "qué tienen en común una boda, un congreso y un concierto.",
    "caption": "Cambia el público, pero la lógica es la misma: cronograma, proveedores y plan B. Por eso quien organiza conciertos se adapta tan bien a otros eventos.\n\nEnvíaselo a quien organiza eventos de cualquier tipo.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 7,
+   "fecha": "2026-12-06",
+   "tipo": "stories",
+   "pilar": "Comunidad",
+   "tema": "encuesta para alimentar el calendario.",
+   "caption": "Responder a la caja de preguntas. Las respuestas deciden temas de las semanas 3 y 4.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 7,
@@ -417,6 +263,17 @@
   {
    "dia": 8,
    "fecha": "2026-12-07",
+   "tipo": "carrusel",
+   "pilar": "Números",
+   "tema": "partidas del presupuesto que se olvidan.",
+   "caption": "Ninguna de estas partidas es cara por sí sola. Juntas son la diferencia entre cerrar en positivo o en negativo. Revísalas antes de fijar el precio de la entrada.\n\nComenta PRESUPUESTO y te paso la plantilla con las 12 partidas.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 8,
+   "fecha": "2026-12-07",
    "tipo": "reel",
    "pilar": "Números",
    "tema": "la barra como segunda fuente de ingresos.",
@@ -428,6 +285,17 @@
   {
    "dia": 9,
    "fecha": "2026-12-08",
+   "tipo": "reel",
+   "pilar": "Contratación",
+   "tema": "modelos de pago al artista.",
+   "caption": "Tres formas de pagar un bolo y ninguna es la correcta siempre. Depende de cuánto conoces al público del artista en tu ciudad y de cuánto margen tienes.\n\nComenta CACHE y te mando la tabla comparativa con ejemplos.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 9,
+   "fecha": "2026-12-08",
    "tipo": "carrusel",
    "pilar": "Backstage",
    "tema": "glosario del backstage.",
@@ -435,6 +303,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 10,
+   "fecha": "2026-12-09",
+   "tipo": "carrusel",
+   "pilar": "Producción",
+   "tema": "leer un rider técnico.",
+   "caption": "El rider no es una lista de caprichos, es el manual de instrucciones del concierto. Si algo no se puede cumplir, se habla antes y se acuerda una alternativa por escrito.\n\nComenta RIDER y te paso la guía con un rider de ejemplo comentado.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 10,
@@ -451,12 +330,34 @@
    "dia": 11,
    "fecha": "2026-12-10",
    "tipo": "reel",
+   "pilar": "IA",
+   "tema": "prueba real de planificación con IA.",
+   "caption": "La IA te ahorra horas en lo genérico. Lo local y lo legal siguen necesitando una llamada.\n\nComenta PROMPTS y te paso el prompt que usé.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 11,
+   "fecha": "2026-12-10",
+   "tipo": "reel",
    "pilar": "Herramientas",
    "tema": "montar una lista de espera en 10 minutos.",
    "caption": "Una lista de espera te da dos cosas: tus primeras ventas y un dato real de interés antes de invertir.\n\nComenta PREVENTA y te paso el plan de lanzamiento completo.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 12,
+   "fecha": "2026-12-11",
+   "tipo": "carrusel",
+   "pilar": "Venta",
+   "tema": "plan de contenido para vender un concierto.",
+   "caption": "Vender un concierto no es publicar el cartel y esperar. Es contar una historia en seis capítulos.\n\nComenta PLAN y te mando el calendario de 6 semanas en plantilla.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 12,
@@ -473,12 +374,34 @@
    "dia": 13,
    "fecha": "2026-12-12",
    "tipo": "reel",
+   "pilar": "Producción",
+   "tema": "documentos antes de anunciar.",
+   "caption": "Lo más caro de un concierto es tener que desanunciarlo. Antes del primer post, papeles. Consulta siempre los requisitos de tu ayuntamiento.\n\nComenta DOCUMENTOS y te paso la checklist legal básica.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 13,
+   "fecha": "2026-12-12",
+   "tipo": "reel",
    "pilar": "Backstage",
    "tema": "la guest list.",
    "caption": "Pacta las invitaciones en el contrato y cierra la lista a una hora. Tu taquilla te lo agradecerá.\n\nEnvíaselo a quien lleva la puerta en tus conciertos.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 14,
+   "fecha": "2026-12-13",
+   "tipo": "stories",
+   "pilar": "Comunidad",
+   "tema": "resultados de la encuesta del día 7 y quiz.",
+   "caption": "Responder al quiz y escribir por DM la duda de la semana.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 14,
@@ -490,6 +413,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 15,
+   "fecha": "2026-12-14",
+   "tipo": "carrusel",
+   "pilar": "IA",
+   "tema": "qué delegar en la IA.",
+   "caption": "La IA no organiza conciertos. Te devuelve horas para lo que sí requiere criterio: relaciones, decisiones y presencia el día D.\n\nComenta IA y te mando un prompt para cada una de las 7 tareas.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 15,
@@ -506,12 +440,34 @@
    "dia": 16,
    "fecha": "2026-12-15",
    "tipo": "reel",
+   "pilar": "Venta",
+   "tema": "anunciar el cartel en 3 fases.",
+   "caption": "Un solo anuncio es un pico de atención que se apaga en 48 horas. Tres fases te dan tres picos y más tiempo de venta.\n\nComenta CARTEL y te paso el guion de las 3 fases con plantillas de posts.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 16,
+   "fecha": "2026-12-15",
+   "tipo": "reel",
    "pilar": "Números",
    "tema": "early bird agotado en una hora.",
    "caption": "Agotar rápido es buena noticia y también información. Úsala para fijar los tramos siguientes.\n\nComenta PRECIOS y te paso la plantilla de tramos.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 17,
+   "fecha": "2026-12-16",
+   "tipo": "carrusel",
+   "pilar": "Contratación",
+   "tema": "dónde encontrar artistas emergentes.",
+   "caption": "El artista que hoy cuesta poco y llena 150 personas es el que dentro de dos años tendrás que pelear. Haz scouting cada mes.\n\nComenta TALENTO y te mando la lista de fuentes con enlaces.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 17,
@@ -528,12 +484,34 @@
    "dia": 18,
    "fecha": "2026-12-17",
    "tipo": "reel",
+   "pilar": "Números",
+   "tema": "tramos de precio de la entrada.",
+   "caption": "Los tramos no son para cobrar más, son para vender antes. Y vender antes te da datos para decidir publicidad, aforo y producción.\n\nComenta PRECIOS y te paso la plantilla de tramos.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 18,
+   "fecha": "2026-12-17",
+   "tipo": "reel",
    "pilar": "Backstage",
    "tema": "quién hace qué en la mesa de sonido.",
    "caption": "Sonido de sala y sonido de escenario son dos trabajos distintos. Conocerlos te ayuda a leer el rider y a negociar la técnica.\n\nComenta RIDER y te paso la guía del rider comentado.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 19,
+   "fecha": "2026-12-18",
+   "tipo": "carrusel",
+   "pilar": "Producción",
+   "tema": "hoja de ruta del día del concierto.",
+   "caption": "Si todo el equipo sabe a qué hora, dónde y a quién llamar, tú dejas de ser la centralita.\n\nComenta HOJA y te mando la plantilla editable.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 19,
@@ -550,12 +528,34 @@
    "dia": 20,
    "fecha": "2026-12-19",
    "tipo": "reel",
+   "pilar": "IA",
+   "tema": "cartel del evento con IA.",
+   "caption": "La IA es perfecta para fondos y variaciones. La imagen del artista es suya: usa siempre material oficial y pide aprobación antes de publicar.\n\nComenta CARTELIA y te paso los prompts de fondo por género musical.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 20,
+   "fecha": "2026-12-19",
+   "tipo": "reel",
    "pilar": "Otros eventos",
    "tema": "música en vivo en eventos corporativos.",
    "caption": "Los eventos corporativos son otra fuente de trabajo para quien sabe producir música en vivo. Lo técnico es igual; el cliente, no.\n\nEnvíaselo a quien organiza eventos para empresas.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 21,
+   "fecha": "2026-12-20",
+   "tipo": "stories",
+   "pilar": "Comunidad",
+   "tema": "caja de preguntas abierta.",
+   "caption": "Enviar preguntas. Las más repetidas pasan al calendario de enero.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 21,
@@ -572,12 +572,34 @@
    "dia": 22,
    "fecha": "2026-12-21",
    "tipo": "carrusel",
+   "pilar": "Venta",
+   "tema": "diagnóstico cuando la venta va lenta.",
+   "caption": "Una venta lenta casi nunca es un problema del artista ni de la sala. Suele ser un desajuste entre mensaje, precio y momento. Y eso tiene arreglo.\n\nComenta DIAGNOSTICO y te mando la hoja de diagnóstico.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 22,
+   "fecha": "2026-12-21",
+   "tipo": "carrusel",
    "pilar": "Backstage",
    "tema": "el rider de hospitalidad.",
    "caption": "El rider de hospitalidad cuida al artista y a la relación. Revísalo con la sala antes de firmar.\n\nGuárdalo para tu próximo concierto.",
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 23,
+   "fecha": "2026-12-22",
+   "tipo": "reel",
+   "pilar": "Producción",
+   "tema": "plan B.",
+   "caption": "Los imprevistos no se pueden evitar, pero sí decidir de antemano qué hacer con ellos. Un folio por escenario y tranquilidad el día D.\n\nComenta PLANB y te paso la plantilla de contingencias.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 23,
@@ -593,6 +615,17 @@
   {
    "dia": 24,
    "fecha": "2026-12-23",
+   "tipo": "carrusel",
+   "pilar": "Contratación",
+   "tema": "escribir a una oficina de contratación.",
+   "caption": "Las oficinas reciben muchísimas propuestas al día. La que se responde antes es la que trae todos los datos para decidir en una lectura.\n\nComenta EMAIL y te mando la plantilla para copiar.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 24,
+   "fecha": "2026-12-23",
    "tipo": "reel",
    "pilar": "Backstage",
    "tema": "los 15 minutos antes de abrir puertas.",
@@ -600,6 +633,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 25,
+   "fecha": "2026-12-24",
+   "tipo": "stories",
+   "pilar": "Comunidad",
+   "tema": "Nochebuena ligera.",
+   "caption": "Responder en la caja. Se comparten las respuestas el día 28.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 25,
@@ -615,6 +659,17 @@
   {
    "dia": 26,
    "fecha": "2026-12-25",
+   "tipo": "reel",
+   "pilar": "Comunidad",
+   "tema": "humor del sector.",
+   "caption": "Feliz Navidad a quien sigue pensando en el próximo evento hasta en la cena.\n\nEtiqueta a tu compañero o compañera de producción. Sin keyword: el objetivo es alcance y compartidos.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 26,
+   "fecha": "2026-12-25",
    "tipo": "carrusel",
    "pilar": "Temporada",
    "tema": "el calendario de la música en vivo.",
@@ -622,6 +677,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 27,
+   "fecha": "2026-12-26",
+   "tipo": "carrusel",
+   "pilar": "Números",
+   "tema": "KPIs después de cada concierto.",
+   "caption": "El concierto termina cuando cierras los números, no cuando se apagan las luces. Seis datos, una hoja y mejores decisiones en el siguiente.\n\nComenta KPIS y te paso la hoja de seguimiento.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 27,
@@ -637,6 +703,17 @@
   {
    "dia": 28,
    "fecha": "2026-12-27",
+   "tipo": "stories",
+   "pilar": "Comunidad",
+   "tema": "balance del año.",
+   "caption": "Votar y responder. Los resultados orientan el calendario de enero.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 28,
+   "fecha": "2026-12-27",
    "tipo": "reel",
    "pilar": "Backstage",
    "tema": "desmontar un escenario.",
@@ -648,6 +725,17 @@
   {
    "dia": 29,
    "fecha": "2026-12-28",
+   "tipo": "reel",
+   "pilar": "IA",
+   "tema": "sistema completo para organizar un concierto.",
+   "caption": "Cinco pasos, las mismas herramientas en cada concierto. Organizar mejor no es trabajar más horas, es repetir un sistema.\n\nComenta SISTEMA y te mando la guía completa.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
+  },
+  {
+   "dia": 29,
+   "fecha": "2026-12-28",
    "tipo": "carrusel",
    "pilar": "Herramientas",
    "tema": "6 prompts de IA para cada semana de 2027.",
@@ -655,6 +743,17 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 30,
+   "fecha": "2026-12-29",
+   "tipo": "carrusel",
+   "pilar": "Producción",
+   "tema": "planificar la temporada 2027.",
+   "caption": "El mejor momento para planificar el verano es ahora, cuando todavía nadie ha cerrado fechas. Una página, doce meses, tus objetivos a la vista.\n\nComenta 2027 y te paso la plantilla de temporada.",
+   "archivos": [],
+   "aprobado": false,
+   "franja": "manana"
   },
   {
    "dia": 30,
