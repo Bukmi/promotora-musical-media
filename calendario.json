@@ -853,6 +853,22 @@
    "archivos": [],
    "aprobado": false,
    "franja": "tarde"
+  },
+  {
+   "dia": 31,
+   "fecha": "2026-12-30",
+   "tipo": "reel",
+   "pilar": "Producción",
+   "tema": "el rider paso a paso (reel 3D con el monigote).",
+   "caption": "El rider no es un trámite: cada línea es algo que tiene que existir en tu sala.\n\n1. Escenario: medidas y altura.\n2. Sonido: qué equipo exigen y quién lo pone.\n3. Monitores: cuántas mezclas y cuántas cuñas.\n4. Luces.\n5. Camerino, catering y hora de prueba.\n\nLéelo entero antes de firmar. Si algo no cuadra, se negocia ahora, no el día del concierto.\n\nEnvíaselo a quien tenga un rider pendiente de leer.",
+   "archivos": [
+    "reels/2026-11-25-rider-3d-completo/reel.mp4"
+   ],
+   "portada": "reels/2026-11-25-rider-3d-completo/portada.jpg",
+   "aprobado": false,
+   "franja": "manana",
+   "nota": "Reel 3D completo con el monigote (25/11). Fecha provisional en el primer hueco libre: se puede mover.",
+   "producido": "2026-11-25"
   }
  ],
  "como_aprobar": "Dos huecos al día: franja manana (~10:00) y tarde (~18:00). Una pieza solo se publica si aprobado es true. Con variantes, elegida indica la variante aprobada."
