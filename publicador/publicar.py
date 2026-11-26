@@ -163,6 +163,27 @@ def aplicar_oks(a):
     print(f"{cambios} cambios")
 
 
+def estado(a):
+    """Una palabra para la franja: PUBLICADA, PENDIENTE (aprobada, con archivos, sin publicar), SIN_OK, SIN_ARCHIVOS o SIN_PIEZA."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    fecha = a.fecha or datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+    local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "calendario.json")
+    cal = json.load(open(local))
+    p = next((p for p in cal["piezas"] if p["fecha"] == fecha and p.get("franja", "manana") == a.franja), None)
+    if not p:
+        r = "SIN_PIEZA"
+    elif p.get("publicado"):
+        r = "PUBLICADA " + str(p["publicado"])
+    elif not p.get("aprobado"):
+        r = "SIN_OK"
+    elif not (p.get("archivos") or any(v.get("archivos") for v in p.get("variantes", []))):
+        r = "SIN_ARCHIVOS"
+    else:
+        r = "PENDIENTE"
+    print(f"{fecha} {a.franja}: {r}")
+
+
 def auto(a):
     """Para GitHub Actions: decide la franja por la hora de Madrid (así no depende del horario de verano)."""
     from datetime import datetime
@@ -192,7 +213,7 @@ def publicar_uno(tipo, a):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy", "auto", "aplicar-oks"])
+    ap.add_argument("accion", choices=["perfil", "refrescar-token", "reel", "imagen", "carrusel", "story", "hoy", "auto", "aplicar-oks", "estado"])
     ap.add_argument("--url", action="append", default=[])
     ap.add_argument("--texto")
     ap.add_argument("--portada")
@@ -211,6 +232,8 @@ def main():
         return hoy(a)
     if a.accion == "auto":
         return auto(a)
+    if a.accion == "estado":
+        return estado(a)
     if a.accion == "aplicar-oks":
         return aplicar_oks(a)
     if not a.url:
