@@ -3,7 +3,9 @@ name: Publicar en Instagram
 on:
   schedule:
     - cron: "45 7,8 * * *"    # franja de mañana (~10:00 Madrid, invierno y verano)
+    - cron: "15 9 * * *"      # respaldo de mañana por si GitHub se salta la anterior
     - cron: "45 15,16 * * *"  # franja de tarde (~18:00 Madrid)
+    - cron: "15 17 * * *"     # respaldo de tarde
   workflow_dispatch:
     inputs:
       accion:
