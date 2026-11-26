@@ -9,8 +9,11 @@ on:
   workflow_dispatch:
     inputs:
       accion:
-        description: "auto (publica si toca) o perfil (solo comprueba el token)"
+        description: "auto (publica si toca), hoy (publica ya la franja indicada) o perfil (solo comprueba el token)"
         default: auto
+      franja:
+        description: "solo con hoy: manana o tarde"
+        default: manana
 permissions:
   contents: write
 concurrency:
@@ -27,7 +30,14 @@ jobs:
       - name: Publicar la pieza de la franja
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python3 publicador/publicar.py ${{ github.event.inputs.accion || 'auto' }}
+          ACCION: ${{ github.event.inputs.accion || 'auto' }}
+          FRANJA: ${{ github.event.inputs.franja || 'manana' }}
+        run: |
+          if [ "$ACCION" = "hoy" ]; then
+            python3 publicador/publicar.py hoy --publicar --franja "$FRANJA"
+          else
+            python3 publicador/publicar.py "$ACCION"
+          fi
       - name: Guardar el enlace publicado
         run: |
           if ! git diff --quiet calendario.json; then
