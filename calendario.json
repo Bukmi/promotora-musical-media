@@ -85,7 +85,7 @@
     "carruseles/2026-11-27-manana/07.jpg",
     "carruseles/2026-11-27-manana/08.jpg"
    ],
-   "aprobado": false,
+   "aprobado": true,
    "franja": "manana",
    "producido": "2026-11-25"
   },
@@ -99,7 +99,7 @@
    "archivos": [
     "reels/2026-11-27-tarde/reel.mp4"
    ],
-   "aprobado": false,
+   "aprobado": true,
    "franja": "tarde",
    "portada": "reels/2026-11-27-tarde/portada.jpg",
    "producido": "2026-11-25"
